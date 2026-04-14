@@ -1,0 +1,162 @@
+.services-page {
+  background-color: var(--white);
+}
+
+.services-hero {
+  background: linear-gradient(135deg, var(--secondary) 0%, var(--secondary-hover) 100%);
+  color: var(--white);
+  padding: 140px 0 100px;
+  text-align: center;
+  position: relative;
+}
+
+.services-hero::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 50px;
+  background-color: var(--white);
+  clip-path: polygon(0 100%, 100% 100%, 100% 0);
+}
+
+.services-hero h1 {
+  font-size: 3.5rem;
+  margin-bottom: 20px;
+  font-weight: 800;
+  text-transform: uppercase;
+}
+
+.services-hero p {
+  font-size: 1.4rem;
+  opacity: 0.9;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.services-hero p.subtitle-strong {
+  font-weight: 700;
+  color: #FFD700; /* Yellow for high contrast on blue background */
+  margin-top: 15px;
+  font-size: 1.5rem;
+  opacity: 1;
+}
+
+.services-full-list {
+  display: flex;
+  flex-direction: column;
+  gap: 80px;
+}
+
+.service-detail-row {
+  display: flex;
+  align-items: center;
+  gap: 60px;
+}
+
+.service-detail-row.reverse {
+  flex-direction: row-reverse;
+}
+
+.service-detail-image {
+  flex: 1;
+}
+
+.service-detail-image img {
+  width: 100%;
+  height: 400px;
+  object-fit: cover;
+  border-radius: 20px;
+  box-shadow: var(--shadow);
+}
+
+.service-detail-content {
+  flex: 1;
+}
+
+.service-detail-icon {
+  color: var(--primary);
+  margin-bottom: 20px;
+}
+
+.service-detail-content h3 {
+  font-size: 2.2rem;
+  margin-bottom: 20px;
+  color: var(--secondary);
+  font-weight: 800;
+}
+
+.service-detail-content p {
+  font-size: 1.1rem;
+  color: var(--text-light);
+  line-height: 1.8;
+  margin-bottom: 30px;
+}
+
+.cta-banner {
+  background: linear-gradient(135deg, var(--primary) 0%, var(--primary-hover) 100%);
+  color: var(--white);
+  position: relative;
+}
+
+.cta-banner::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 50px;
+  background-color: var(--white);
+  clip-path: polygon(0 0, 100% 0, 0 100%);
+}
+
+.cta-banner h2 {
+  font-size: 3rem;
+  margin-bottom: 20px;
+  font-weight: 800;
+}
+
+.cta-banner p {
+  font-size: 1.2rem;
+  margin-bottom: 40px;
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.btn-large {
+  padding: 18px 60px;
+  font-size: 1.2rem;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+}
+
+@media (max-width: 991px) {
+  .service-detail-row, .service-detail-row.reverse {
+    flex-direction: column;
+    text-align: center;
+    gap: 30px;
+  }
+  
+  .service-detail-image img {
+    height: 300px;
+  }
+
+  .service-detail-content h3 {
+    font-size: 1.8rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .services-hero h1 {
+    font-size: 2.2rem;
+  }
+  
+  .services-hero p {
+    font-size: 1.1rem;
+  }
+
+  .cta-banner h2 {
+    font-size: 2rem;
+  }
+}
