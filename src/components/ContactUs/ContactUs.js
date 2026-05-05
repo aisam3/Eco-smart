@@ -8,15 +8,15 @@ const ContactUs = () => {
       <div className="container text-center fade-in">
         <h2 className="section-title">Get In Touch</h2>
         <p className="section-subtitle">
-           Need Fast, Reliable HVAC Service? We’re Here to Help. Experience the difference with Eco Smart HVAC Solutions LLC – where quality meets reliability.
+           Need Fast, Reliable HVAC Service? We’re Here to Help. Experience the difference with Eco Smart HVAC Solutions Corporation – where quality meets reliability.
         </p>
 
         <div className="grid contact-grid">
            <div className="contact-card shadow">
               <div className="contact-icon"><PhoneCall size={35} /></div>
               <h3>Call Us</h3>
-              <p>703-832-6339</p>
-              <a href="tel:7038326339" className="btn btn-primary">Call Now</a>
+              <p>571-461-9548</p>
+              <a href="tel:5714619548" className="btn btn-primary">Call Now</a>
            </div>
 
            <div className="contact-card shadow">

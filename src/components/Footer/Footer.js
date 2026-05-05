@@ -5,17 +5,6 @@ import './Footer.css';
 const Footer = () => {
   return (
     <>
-      <div className="footer-map">
-        <iframe
-          title="Eco Smart HVAC Solutions Location"
-          src="https://www.google.com/maps?q=11090+Wainwright+Pl,+Manassas,+VA+20109&output=embed"
-          width="100%"
-          height="400"
-          style={{ border: 0, display: 'block' }}
-          allowFullScreen=""
-          loading="lazy"
-        ></iframe>
-      </div>
       <footer className="footer">
         <div className="container">
         <div className="grid footer-grid">
@@ -27,7 +16,7 @@ const Footer = () => {
                   </div>
                   <div className="logo-text">
                      <h2>ECO SMART</h2>
-                     <span>HVAC SOLUTIONS L.L.C</span>
+                     <span>HVAC SOLUTIONS CORPORATION</span>
                   </div>
                </div>
                <p className="footer-about">
@@ -39,8 +28,8 @@ const Footer = () => {
                <h3>Get In Touch</h3>
                <ul className="footer-contact">
                   <li>
-                    <a href="tel:7038326339" className="flex items-center" style={{gap: '12px', color: 'inherit'}}>
-                      <Phone size={18} /> <span>703-832-6339</span>
+                    <a href="tel:5714619548" className="flex items-center" style={{gap: '12px', color: 'inherit'}}>
+                      <Phone size={18} /> <span>571-461-9548</span>
                     </a>
                   </li>
                   <li>
@@ -68,7 +57,7 @@ const Footer = () => {
          </div>
 
          <div className="footer-bottom text-center">
-            <p>© {new Date().getFullYear()} Eco Smart HVAC Solutions L.L.C. All rights reserved.</p>
+            <p>© {new Date().getFullYear()} Eco Smart HVAC Solutions Corporation. All rights reserved.</p>
          </div>
       </div>
     </footer>

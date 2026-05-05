@@ -18,7 +18,7 @@ const AboutUs = () => {
           <div className="about-content-side fade-in">
              <h4>Your Trusted Partner for Year-Round Comfort</h4>
              <p>
-                At Eco Smart HVAC Solutions LLC, we are dedicated to providing high-quality, cost-effective heating and cooling solutions across Virginia. Our mission is to ensure your home or business remains comfortable, regardless of the season.
+                At Eco Smart HVAC Solutions Corporation, we are dedicated to providing high-quality, cost-effective heating and cooling solutions across Virginia. Our mission is to ensure your home or business remains comfortable, regardless of the season.
              </p>
              <p>
                 Whether you're facing a sudden AC breakdown or planning a full HVAC system upgrade, we offer energy-efficient solutions that ensure year-round comfort—keeping your home or business cool in the summer and warm during the winter months.

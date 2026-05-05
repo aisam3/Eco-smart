@@ -32,7 +32,7 @@ const Hero = () => {
           </div>
 
           <div className="hero-btns">
-            <a href="tel:7038326339" className="btn btn-primary">Call 703-832-6339</a>
+            <a href="tel:5714619548" className="btn btn-primary">Call 571-461-9548</a>
             <Link to="/services" className="btn btn-outline">Our Services</Link>
           </div>
         </div>

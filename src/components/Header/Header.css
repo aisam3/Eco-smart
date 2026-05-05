@@ -109,6 +109,12 @@ header {
 .nav-btn {
   padding: 8px 20px;
   font-size: 0.8rem;
+  color: var(--white) !important;
+}
+
+.nav-btn:hover {
+  background-color: var(--white) !important;
+  color: var(--primary) !important;
 }
 
 .mobile-toggle {

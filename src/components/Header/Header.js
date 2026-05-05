@@ -13,7 +13,7 @@ const Header = () => {
         <div className="container flex items-center justify-between">
           <div className="contact-info flex items-center">
             <div className="info-item">
-              <Phone size={14} /> <span>703-832-6339</span>
+              <Phone size={14} /> <span>571-461-9548</span>
             </div>
             <div className="info-item">
               <Clock size={14} /> <span>Available 24/7 For Emergencies</span>
@@ -32,15 +32,16 @@ const Header = () => {
             </div>
             <div className="logo-text">
               <h1>ECO SMART</h1>
-              <span>HVAC SOLUTIONS L.L.C</span>
+              <span>HVAC SOLUTIONS CORPORATION</span>
             </div>
           </Link>
 
           <div className={`nav-links flex ${isOpen ? 'active' : ''}`}>
              <Link to="/" onClick={() => setIsOpen(false)}>HOME</Link>
+             <Link to="/about" onClick={() => setIsOpen(false)}>ABOUT US</Link>
              <Link to="/services" onClick={() => setIsOpen(false)}>SERVICES</Link>
              <Link to="/contact" onClick={() => setIsOpen(false)}>CONTACT US</Link>
-             <a href="tel:7038326339" className="btn btn-primary nav-btn">CALL NOW</a>
+             <a href="tel:5714619548" className="btn btn-primary nav-btn">CALL NOW</a>
           </div>
 
           <div className="mobile-toggle" onClick={() => setIsOpen(!isOpen)}>

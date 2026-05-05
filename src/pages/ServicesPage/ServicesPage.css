@@ -1,46 +1,40 @@
 .services-page {
+  padding-top: 180px;
   background-color: var(--white);
 }
 
-.services-hero {
-  background: linear-gradient(135deg, var(--secondary) 0%, var(--secondary-hover) 100%);
-  color: var(--white);
-  padding: 140px 0 100px;
-  text-align: center;
-  position: relative;
+.services-header {
+  margin-bottom: 60px;
+  max-width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
-.services-hero::after {
-  content: '';
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  width: 100%;
-  height: 50px;
-  background-color: var(--white);
-  clip-path: polygon(0 100%, 100% 100%, 100% 0);
+.page-label {
+  display: block;
+  text-transform: uppercase;
+  font-size: 0.85rem;
+  letter-spacing: 2px;
+  color: var(--text-light);
+  margin-bottom: 20px;
+  font-weight: 600;
 }
 
-.services-hero h1 {
-  font-size: 3.5rem;
+.main-headline {
+  font-size: 2.8rem;
+  color: var(--primary);
+  /* HVAC Red */
+  line-height: 1.2;
   margin-bottom: 20px;
   font-weight: 800;
-  text-transform: uppercase;
 }
 
-.services-hero p {
-  font-size: 1.4rem;
-  opacity: 0.9;
-  max-width: 800px;
-  margin: 0 auto;
-}
-
-.services-hero p.subtitle-strong {
-  font-weight: 700;
-  color: #FFD700; /* Yellow for high contrast on blue background */
-  margin-top: 15px;
+.sub-headline {
   font-size: 1.5rem;
-  opacity: 1;
+  color: var(--secondary);
+  /* HVAC Blue */
+  font-weight: 700;
+  line-height: 1.4;
 }
 
 .services-full-list {
@@ -94,50 +88,37 @@
   margin-bottom: 30px;
 }
 
-.cta-banner {
-  background: linear-gradient(135deg, var(--primary) 0%, var(--primary-hover) 100%);
+.cta-section {
+  padding: 100px 0;
+}
+
+.cta-box {
+  background: linear-gradient(135deg, var(--secondary) 0%, var(--secondary-hover) 100%);
   color: var(--white);
-  position: relative;
+  padding: 80px 40px;
+  border-radius: 30px;
 }
 
-.cta-banner::before {
-  content: '';
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 50px;
-  background-color: var(--white);
-  clip-path: polygon(0 0, 100% 0, 0 100%);
-}
-
-.cta-banner h2 {
+.cta-box h2 {
   font-size: 3rem;
-  margin-bottom: 20px;
-  font-weight: 800;
+  margin-bottom: 15px;
 }
 
-.cta-banner p {
+.cta-box p {
   font-size: 1.2rem;
   margin-bottom: 40px;
-  max-width: 800px;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.btn-large {
-  padding: 18px 60px;
-  font-size: 1.2rem;
-  box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+  opacity: 0.9;
 }
 
 @media (max-width: 991px) {
-  .service-detail-row, .service-detail-row.reverse {
+
+  .service-detail-row,
+  .service-detail-row.reverse {
     flex-direction: column;
     text-align: center;
     gap: 30px;
   }
-  
+
   .service-detail-image img {
     height: 300px;
   }
@@ -145,18 +126,26 @@
   .service-detail-content h3 {
     font-size: 1.8rem;
   }
+
+  .main-headline {
+    font-size: 2.2rem;
+  }
 }
 
 @media (max-width: 768px) {
-  .services-hero h1 {
-    font-size: 2.2rem;
-  }
-  
-  .services-hero p {
-    font-size: 1.1rem;
+  .services-page {
+    padding-top: 150px;
   }
 
-  .cta-banner h2 {
+  .main-headline {
+    font-size: 2rem;
+  }
+
+  .sub-headline {
+    font-size: 1.2rem;
+  }
+
+  .cta-box h2 {
     font-size: 2rem;
   }
 }
