@@ -39,11 +39,11 @@ const ServicesPage = () => {
    return (
       <div className="services-page">
          <div className="container">
-            <header className="services-header text-center fade-in">
+            <section className="services-header text-center fade-in">
                <span className="page-label">Our Services</span>
                <h1 className="main-headline">Complete HVAC Services You Can Trust – Installation. Repair. Maintenance.</h1>
                <h2 className="sub-headline">Eco Smart HVAC Solutions Corporation – Your Trusted Partner for Comfort</h2>
-            </header>
+            </section>
 
             <section className="services-list section-padding">
                <div className="services-full-list">

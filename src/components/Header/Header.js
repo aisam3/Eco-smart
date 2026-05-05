@@ -7,7 +7,7 @@ const Header = () => {
   const [isOpen, setIsOpen] = React.useState(false);
 
   return (
-    <header>
+    <header className="main-header">
       {/* Top Bar */}
       <div className="top-bar">
         <div className="container flex items-center justify-between">
