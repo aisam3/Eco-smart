@@ -8,7 +8,7 @@ const ContactUs = () => {
       <div className="container text-center fade-in">
         <h2 className="section-title">Get In Touch</h2>
         <p className="section-subtitle">
-           Need Fast, Reliable HVAC Service? We’re Here to Help. Experience the difference with Eco Smart HVAC Solutions Corporation – where quality meets reliability.
+           Need Fast, Reliable HVAC Service? We’re Here to Help. Experience the difference with Eco Smart HVAC Solutions – where quality meets reliability.
         </p>
 
         <div className="grid contact-grid">

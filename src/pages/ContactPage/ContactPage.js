@@ -9,7 +9,7 @@ const ContactPage = () => {
         <section className="contact-header text-center fade-in">
           <span className="page-label">Contact Us</span>
           <h1 className="main-headline">Get in Touch with Virginia's Trusted HVAC Experts</h1>
-          <h2 className="sub-headline">Eco Smart HVAC Solutions Corporation – Available 24/7 For Emergencies</h2>
+          <h2 className="sub-headline">Eco Smart HVAC Solutions – Available 24/7 For Emergencies</h2>
         </section>
 
         <ContactUs />

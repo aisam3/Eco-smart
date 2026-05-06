@@ -42,7 +42,7 @@ const ServicesPage = () => {
             <section className="services-header text-center fade-in">
                <span className="page-label">Our Services</span>
                <h1 className="main-headline">Complete HVAC Services You Can Trust – Installation. Repair. Maintenance.</h1>
-               <h2 className="sub-headline">Eco Smart HVAC Solutions Corporation – Your Trusted Partner for Comfort</h2>
+               <h2 className="sub-headline">Eco Smart HVAC Solutions – Your Trusted Partner for Comfort</h2>
             </section>
 
             <section className="services-list section-padding">
@@ -66,7 +66,7 @@ const ServicesPage = () => {
             <section className="cta-section text-center fade-in">
                <div className="cta-box shadow">
                   <h2>Ready to improve your home's comfort?</h2>
-                  <p>Eco Smart HVAC Solutions Corporation – Your Trusted Partner for Residential and Commercial HVAC Solutions</p>
+                  <p>Eco Smart HVAC Solutions – Your Trusted Partner for Residential and Commercial HVAC Solutions</p>
                   <a href="tel:5714619548" className="btn btn-primary btn-large">Call 571-461-9548</a>
                </div>
             </section>

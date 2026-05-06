@@ -32,7 +32,7 @@ const Header = () => {
             </div>
             <div className="logo-text">
               <h1>ECO SMART</h1>
-              <span>HVAC SOLUTIONS CORPORATION</span>
+              <span>HVAC SOLUTIONS</span>
             </div>
           </Link>
 

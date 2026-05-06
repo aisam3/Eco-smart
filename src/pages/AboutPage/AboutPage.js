@@ -8,13 +8,13 @@ const AboutPage = () => {
         {/* Top Section */}
         <div className="about-top-flex">
           <div className="about-top-left">
-            <span className="page-label-minimal">About us page</span>
+            <span className="page-label-minimal">About Us</span>
             <h1 className="about-main-title">Virginia’s Trusted HVAC Professionals – Experience. Integrity. Comfort.</h1>
             <h2 className="about-sub-title">Locally Owned, Professionally Certified – Eco Smart HVAC Solutions</h2>
             <p className="about-intro-text">
-              At <strong>Eco Smart HVAC Solutions Corporation</strong>, customer satisfaction is our top priority. We 
-              pride ourselves on delivering exceptional service, transparent pricing, and 
-              unparalleled craftsmanship. Trust us to handle all your mechanical service needs 
+              At <strong>Eco Smart HVAC Solutions</strong>, customer satisfaction is our top priority. We
+              pride ourselves on delivering exceptional service, transparent pricing, and
+              unparalleled craftsmanship. Trust us to handle all your mechanical service needs
               with professionalism, integrity, and a commitment to excellence.
             </p>
           </div>
@@ -36,13 +36,13 @@ const AboutPage = () => {
             <img src="/Assets/hero-tech.jpeg" alt="HVAC Technicians" className="main-about-img" />
             <div className="about-image-caption">
               <p className="why-description">
-                As a <strong>certified Trane dealer</strong> and <strong>NATE-certified HVAC company</strong>, we provide industry-leading 
-                air conditioning installation, furnace repair, and HVAC system upgrades backed by trusted 
-                brands and proven expertise. We also offer flexible HVAC financing options, making it easier 
+                As a <strong>certified Trane dealer</strong> and <strong>NATE-certified HVAC company</strong>, we provide industry-leading
+                air conditioning installation, furnace repair, and HVAC system upgrades backed by trusted
+                brands and proven expertise. We also offer flexible HVAC financing options, making it easier
                 to invest in your indoor comfort without financial stress.
               </p>
               <p className="why-description">
-                When you choose Eco Smart HVAC Solutions, you’re partnering with a team that values 
+                When you choose Eco Smart HVAC Solutions, you’re partnering with a team that values
                 integrity, professionalism, and long-term relationships. <strong>Your comfort is our priority.</strong>
               </p>
             </div>
@@ -50,8 +50,8 @@ const AboutPage = () => {
           <div className="about-why-choose">
             <h2 className="why-title">Why Choose Eco Smart HVAC Solutions?</h2>
             <p className="why-description">
-              At <strong>Eco Smart HVAC Solutions Corporation</strong>, we bring over 15 years of HVAC experience to 
-              homes and businesses throughout Virginia. Led by John, a seasoned HVAC professional, our team is committed to delivering top-rated 
+              At <strong>Eco Smart HVAC Solutions</strong>, we bring over 15 years of HVAC experience to
+              homes and businesses throughout Virginia. Led by John, a seasoned HVAC professional, our team is committed to delivering top-rated
               heating and air conditioning services with a focus on quality, reliability, and customer satisfaction.
             </p>
             <p className="sub-proud">We're proud to be:</p>

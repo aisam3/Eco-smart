@@ -16,7 +16,7 @@ const Footer = () => {
                   </div>
                   <div className="logo-text">
                      <h2>ECO SMART</h2>
-                     <span>HVAC SOLUTIONS CORPORATION</span>
+                     <span>HVAC SOLUTIONS</span>
                   </div>
                </div>
                <p className="footer-about">
@@ -57,7 +57,7 @@ const Footer = () => {
          </div>
 
          <div className="footer-bottom text-center">
-            <p>© {new Date().getFullYear()} Eco Smart HVAC Solutions Corporation. All rights reserved.</p>
+            <p>© {new Date().getFullYear()} Eco Smart HVAC Solutions. All rights reserved.</p>
          </div>
       </div>
     </footer>
