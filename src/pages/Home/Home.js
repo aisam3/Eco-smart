@@ -4,6 +4,8 @@ import ServicesSection from '../../components/ServicesSection/ServicesSection';
 import AboutUs from '../../components/AboutUs/AboutUs';
 import ContactUs from '../../components/ContactUs/ContactUs';
 
+import Map from '../../components/Map/Map';
+
 const Home = () => {
   return (
     <div className="home-page">
@@ -11,6 +13,7 @@ const Home = () => {
       <ServicesSection />
       <AboutUs />
       <ContactUs />
+      <Map />
     </div>
   );
 };

@@ -60,7 +60,9 @@
 .service-detail-image img {
   width: 100%;
   height: 400px;
-  object-fit: cover;
+  /* object-fit: cover; */
+  /* background-position: center; */
+  background-size: auto;
   border-radius: 20px;
   box-shadow: var(--shadow);
 }

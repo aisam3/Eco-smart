@@ -26,14 +26,7 @@ const Header = () => {
       <nav className="navbar shadow">
         <div className="container flex items-center justify-between">
           <Link to="/" className="logo">
-            <div className="logo-icon">
-              <span className="ice">❄️</span>
-              <span className="fire">🔥</span>
-            </div>
-            <div className="logo-text">
-              <h1>ECO SMART</h1>
-              <span>HVAC SOLUTIONS</span>
-            </div>
+            <img src="/Assets/logo.jpeg" alt="Eco Smart HVAC Solutions" className="header-logo" />
           </Link>
 
           <div className={`nav-links flex ${isOpen ? 'active' : ''}`}>

@@ -58,35 +58,10 @@ header {
   gap: 12px;
 }
 
-.logo-icon {
-  display: flex;
-  flex-direction: column;
-  line-height: 1;
-  font-size: 1.4rem;
-  background: var(--bg-light);
-  padding: 8px;
-  border-radius: 12px;
-  border: 1px solid #eee;
-}
-
-.logo-icon .ice {
-  margin-bottom: -5px;
-}
-
-.logo-text h1 {
-  font-size: 1.6rem;
-  line-height: 1;
-  color: var(--secondary);
-  font-weight: 800;
-  margin-bottom: 2px;
-}
-
-.logo-text span {
-  font-size: 0.65rem;
-  font-weight: 700;
-  color: var(--primary);
-  letter-spacing: 2.5px;
-  text-transform: uppercase;
+.header-logo {
+  height: 60px;
+  width: auto;
+  object-fit: contain;
 }
 
 .nav-links {

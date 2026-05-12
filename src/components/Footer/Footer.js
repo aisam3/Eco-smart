@@ -10,14 +10,7 @@ const Footer = () => {
         <div className="grid footer-grid">
             <div className="footer-col">
                <div className="footer-logo">
-                  <div className="logo-icon">
-                    <span className="ice">❄️</span>
-                    <span className="fire">🔥</span>
-                  </div>
-                  <div className="logo-text">
-                     <h2>ECO SMART</h2>
-                     <span>HVAC SOLUTIONS</span>
-                  </div>
+                  <img src="/Assets/logo.jpeg" alt="Eco Smart HVAC Solutions" className="footer-logo-img" />
                </div>
                <p className="footer-about">
                   Trusted HVAC experts in Virginia, providing dependable and cost-effective heating and cooling solutions for residential and commercial spaces.
